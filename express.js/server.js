@@ -1,0 +1,15 @@
+var express=require("express")
+var app=express()
+var bodyparser=require('body-parser')
+var cors=require("cors")
+var {mongoose}=require('./db')
+var contact=require("./controller/contact")
+var signup=require("./controller/signup")
+var controller1=require('./controller/controller1')
+app.use(bodyparser.urlencoded({extended:true}));
+app.use(bodyparser.json());
+app.use(cors({orgin:"http://localhost:4200/"}))
+app.listen(3000,console.log("sucess"))
+app.use("/contact",contact)
+// app.use("/signup",signup)
+app.use("/controller1",controller1)

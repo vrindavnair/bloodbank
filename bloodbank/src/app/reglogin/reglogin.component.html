@@ -1,0 +1,100 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-4">
+		</div>
+		<div class="col-md-4">
+			<div class="login-wrap">
+				<div class="login-html">
+					<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1"
+						class="tab">DONOR</label>
+					<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2"
+						class="tab">PATIENT</label>
+					<div class="login-form">
+						<div class="sign-in-htm">
+							<form #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)">
+								<div class="group">
+									<label for="user" class="label">FULL NAME</label>
+									<input id="user" type="text" class="input" name="username" #username="ngModel"
+										[(ngModel)]="serviceform.selectedUser.username">
+								</div>
+								<div class="group">
+									<label for="pass" class="label"> EMAIL</label>
+									<input id="" type="email" class="input" name="email" #email="ngModel"
+										[(ngModel)]="serviceform.selectedUser.email">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">PHONE NUMBER</label>
+									<input id="" type="text" class="input" name="mob" #mob="ngModel"
+										[(ngModel)]="serviceform.selectedUser.mob">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">PASSWORD</label>
+									<input id="pass" type="password" class="input" data-type="pass" name="pass"
+										#pass="ngModel" [(ngModel)]="serviceform.selectedUser.pass" value="">
+								</div>
+								<div class="group">
+									<label for="pass" class="label"> CONFIRM PASSWORD</label>
+									<input id="cpass" type="text" class="input" data-type="" name="cpass"
+										#cpass="ngModel" [(ngModel)]="serviceform.selectedUser.cpass" value="">
+								</div>
+								<div class="group">
+									<input type="submit" class="button" value="REGISTER"><br>
+									<button type="button" class="button"
+										(click)="resetform(registerForm)">Reset</button>
+								</div>
+								<div class="foot-lnk">
+									<a href="/login">Already a member</a>
+								</div>
+							</form>
+						</div>
+						<div class="sign-up-htm">
+							<form #registerForm="ngForm" (ngSubmit)="loginSubmit(registerForm)"
+								onsubmit="return verifyPassword()">
+								<div class="group">
+									<label for="user" class="label">Username</label>
+									<input id="user" type="text" class="input" name="username" #username="ngModel"
+										[(ngModel)]="serviceform.selectedUser.username">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">Email Address</label>
+									<input id="" type="email" class="input" name="email" #email="ngModel"
+										[(ngModel)]="serviceform.selectedUser.email" value="">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">PHONE NUMBER</label>
+									<input id="" type="text" class="input" name="mob" #mob="ngModel"
+										[(ngModel)]="serviceform.selectedUser.mob" value="">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">Password</label>
+									<input id="" type="password" class="input" data-type="password" name="pass"
+										#pass="ngModel" [(ngModel)]="serviceform.selectedUser.pass">
+									<span id="message" style="color:red"> </span> <br><br>
+								</div>
+								<div class="group">
+									<label for="pass" class="label">Repeat Password</label>
+									<input id="cpass" type="text" class="input" data-type="" name="cpass"
+										#cpass="ngModel" [(ngModel)]="serviceform.selectedUser.cpass" value="">
+								</div>
+
+								<div class="group">
+									<input type="submit" class="button" value="REGISTER"><br>
+									<button type="button" class="button"
+										(click)="resetform(registerForm)">Reset</button>
+								</div>
+
+								<div class="foot-lnk">
+									<a href="/login">Already Member? please login</a>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+
+		</div>
+	</div>
+
+</div>

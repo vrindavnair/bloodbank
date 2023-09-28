@@ -1,0 +1,55 @@
+<div class="container-fluid">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-4"></div>
+
+      <div class="col-md-4">
+        <!-- login form  -->
+
+        <form #signup="ngForm" (ngSubmit)="fun1(signup)" class="signup">
+          <h2 id="h2" class="">Signup</h2>
+          <div class="row">
+            <div class="col-md-12">
+              <!-- <i class="fa fa-user" style="font-size: 20px"></i> -->
+
+              <input
+                type="text"
+                placeholder="USERNAME"
+                name="username"
+                id="uname"
+                class="form-contol" #username="ngModel" [(ngModel)]="serviceform2.selectedUser.username">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <!-- <i class="fa fa-envelope" style="font-size: 25px"></i> -->
+              <input
+                type="pass"
+                placeholder="PASSWORD"
+                name="pass"
+                id="pass"
+                class="form-contol" #pass="ngModel" [(ngModel)]="serviceform2.selectedUser.pass">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <button type="submit" class="btn btn-light"  style="margin-top: 30px; border: solid black 2px; margin-left: 150px;">Submit  </button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <h5 style="color: aliceblue; margin-left: 130px;">Please Register</h5>
+              <button type="reset" class="btn btn-light"
+                style="  border: solid black 2px; margin-left: 150px;" routerLink="/reglogin">
+                Register
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,23 @@
+.heading{
+    background-image: linear-gradient(white,red);
+    color: white;
+    text-align: center;
+}
+#img1{
+    height: 275px;
+    /* width: 250px; */
+}
+#img2{
+    height: 275px;
+    /* width: 250px; */
+    
+}
+.img4{
+    height: 275px;
+    /* width: 250px; */
+
+}
+.img-fluid{
+    height: 500px;
+    /* width: 100%; */
+}

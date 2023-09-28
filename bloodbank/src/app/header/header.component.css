@@ -1,0 +1,35 @@
+.nav{
+    background-image: linear-gradient(red,white);
+    /* height: 135px; */
+}
+
+
+
+
+
+#h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-top: 100px;
+    color: brown;
+    
+}
+/* .img1{
+position: absolute;
+left: 750px;
+top: 2px;
+
+} */
+.btn1{
+    position: absolute;
+    /* left:970px */
+
+}
+#a1{
+    color:white ;
+    font-weight: bolder;
+    
+}
+/* a1:hover{
+    background-color: darkred;
+} */

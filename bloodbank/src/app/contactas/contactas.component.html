@@ -1,0 +1,85 @@
+ <div class="container-fluid">
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-4"></div>
+     
+      <div class="col-md-4">
+        
+        <!-- login form  -->
+
+        <form #contact="ngForm" (ngSubmit)="fun1(contact)" class="conct px-3">
+          
+          <h2 id="h2" class="">CONTACT US</h2>
+          <div class="row">
+           
+                <div class="col-md-12" >
+                  <i class="fa fa-user" id="fa"></i>
+
+                  <input type="text" placeholder="Name" name="lname" id="lname" class="form-contol" #lname="ngModel" [(ngModel)]="serviceform1.selectedUser.lname">
+
+               </div>
+              </div>
+          
+
+        
+              <div class="row">
+                <div class="col-md-12">
+                  <i class="fa fa-envelope " style="font-size: 25px; "></i>
+                  <input type="email" placeholder="Email" name="email" id="email" class="form-contol" #email="ngModel"  [(ngModel)]="serviceform1.selectedUser.email">
+                  
+          
+               </div>
+              </div>
+           
+        
+              <div class="row">
+                <div class="col-md-12">
+                  <i class="fa fa-phone" style="font-size: 25px;"></i>
+                 
+                  <input type="text" placeholder="Mobile" name="mob" id="mob"class="form-contol" #mob="ngModel"  [(ngModel)]="serviceform1.selectedUser.mob">
+
+          
+               </div>
+              </div>
+           
+          
+              <div class="row">
+                <div class="col-md-12">
+                  <i class="fa fa-commenting" style="font-size: 25px;"></i>
+
+                  <input type="text" placeholder="Message" name="mesg" id="mob"class="form-contol" #mesg="ngModel"  [(ngModel)]="serviceform1.selectedUser.mesg">
+                 
+                  </div>
+              </div>
+            
+         
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="submit"   class="btn btn-light"  style="margin-top: 30px;
+                     border: solid black 2px;">Submit</button>
+                 
+                  </div>
+              </div>
+            
+          
+              <div class="row">
+                <div class="col-md-12">
+                  <button type="reset"   class="btn "
+                  style="
+                    
+                    /* margin-top: 10px; */
+                    
+                    border: none;
+                    color: blue;
+                    
+                    text-decoration: underline blue;
+                  ">Reset</button>
+                 
+                  </div>
+              </div>
+            </form>   
+    
+      
+     
+      
+ 

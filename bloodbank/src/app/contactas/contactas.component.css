@@ -1,0 +1,67 @@
+.conct{
+	background-image: linear-gradient(rgb(240, 155, 155),red);
+	height: 500px;
+	border-radius: 40px;	
+}
+#h2{
+    color: rgb(75, 9, 5);
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+form{
+	text-align: center;
+}
+
+#lname {
+	
+	margin-top: 50px;
+	/* border-radius: 20px; */
+	height: 50px;
+	border: solid white 3px;
+	outline: none;
+	
+}
+i{
+	font-size: 25px;
+	 background-color:aliceblue;
+
+	height: 50px;
+	border: solid white 11px;
+
+	outline: none; 
+}
+#fa{
+	font-size: 25px;
+	 background-color:aliceblue;
+	height: 50px;
+	border: solid white 10px;
+	outline: none;
+
+}
+#email{
+	
+	margin-top: 30px;
+	/* border-radius: 20px; */
+	height: 50px;
+	outline: none;
+	border: solid rgb(247, 243, 243) 2px;
+
+}
+#mob{
+	
+	margin-top: 30px;
+	/* border-radius: 20px; */
+	height: 50px;
+	border: solid rgb(247, 247, 247) 2px;
+
+}
+#mesg{
+	
+	margin-top: 30px;
+	/* border-radius: 20px; */
+	height: 50px;
+	border: solid rgb(247, 244, 244) 2px;
+
+}
+
+

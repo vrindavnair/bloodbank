@@ -1,0 +1,36 @@
+.signup{
+	background-image: linear-gradient(rgb(240, 155, 155),red);
+	height: 400px;
+	border-radius: 40px;	
+}
+#h2{
+    color: rgb(75, 9, 5);
+    margin-left: 150px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#uname{
+
+	border-radius: 20px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 40px;
+	border: solid black 2px;
+	
+	
+}
+#pass{
+	
+	border-radius: 20px;
+	height: 50px;
+	margin-left: 100px;
+	margin-top: 20px;
+	border: solid black 2px;
+}
+/* #span1,.checkbox{
+	left: 100px;
+	
+} */
+/* .checkbox{
+	margin-left: 140px;
+} */

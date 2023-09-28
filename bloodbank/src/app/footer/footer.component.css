@@ -1,0 +1,181 @@
+.f1{
+    background-image: linear-gradient(red,rgb(227, 125, 125));
+}
+.form-control{
+    width: 300px;
+}
+
+
+.form-text{
+    color: white;
+}
+.btn{
+    color: white;
+}
+
+/* login.css*/
+
+/* login css */
+
+.login{
+	background-image: linear-gradient(rgb(240, 155, 155),red);
+	height: 550px;
+	border-radius: 40px;	
+}
+.logbt{
+	background-color: red;
+	text-decoration: none;
+	
+	border-radius: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
+	/* width: 100px; */
+	border: solid black 2px;
+}
+.regbt{
+	background-color:red;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-top: 20px;
+	/* width: 100px; */
+	border: solid black 2px;
+}
+#fname{
+	margin-left: 100px;
+	margin-top: 30px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#email{
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#mob{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#psw{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+
+}
+#cpass{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+.checkbox{
+	margin-top: 40px;
+	margin-left: 90px;
+}
+#span1{
+	margin-left: 20px;
+	color: azure;
+	
+}
+
+
+/* register css */
+
+.register{
+	background-image: linear-gradient(rgb(240, 155, 155),red);
+	height: 450px;
+	border-radius: 40px;
+	display: none;
+	
+}
+#fname{
+	margin-left: 100px;
+	margin-top: 30px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#email{
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#mob{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+#psw{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+
+}
+#cpass{
+	margin-left: 100px;
+	margin-top: 20px;
+	border-radius: 20px;
+	height: 50px;
+	border: solid black 2px;
+	
+}
+
+
+.logbt1{
+	background-color: red;
+	border-radius: 20px;
+	margin-left: 60px;
+	margin-top: 20px;
+	/* width: 100px; */
+	border:solid black 2px;
+	
+
+}
+.aa{
+	display:inline;
+	width:100px;
+	border:none
+}
+.regbt1{
+	background-color: red;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-top: 20px;
+	/* width: 100px; */
+	border:solid black 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
